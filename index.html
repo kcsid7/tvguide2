@@ -1,0 +1,40 @@
+<!doctype html> 
+<html>
+  <head>
+    <title>TV Guide</title>
+    <link rel="stylesheet"
+      href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="//tvMaze.css">
+  </head>
+  <body>
+    <div class="container">
+
+    <h1 id="web-title">TV Guide</h1>
+
+    <form class="form-inline" id="search-form">
+        <input class="form-control" id="search-query" value="">
+        <div id="form-buttons">
+          <button class="btn btn-primary mb-2" type="submit" id="tv-search">Search For Shows</button>
+        </div>
+    </form>
+
+    <div class="row mt-3" id="shows-list">
+    </div>
+
+    <section style="display: none" id="episodes-area">
+      <div id="episodes-area-head">
+        <h2 id="episodes-title"></h2>
+        <button class="btn btn-success" id="episodes-list-back">Go Back</button> 
+      </div>
+      <ul id="episodes-list">
+      </ul>
+    </section>  
+
+    <script src="http://unpkg.com/jquery"></script>
+    <script src="http://unpkg.com/axios/dist/axios.js"></script>
+    <script src="//tvmaze.js"></script>
+
+    </div>
+
+  </body>
+</html>

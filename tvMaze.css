@@ -1,0 +1,87 @@
+body {
+    background-color: snow;
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#web-title {
+    align-self: center;
+    font-size: 5rem;
+}
+
+#form-buttons {
+    margin-top: 10px;
+}
+
+.Show {
+    padding: 10px;
+}
+
+#shows-list {
+    margin-top: 20px;
+}
+
+#episodes-area {
+    display: flex;
+    flex-direction: column;
+}
+
+#episodes-area-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#episodes-title {
+    font-size: 2.5rem;
+}
+
+
+#episodes-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.episode {
+    display: flex;
+    margin: 5px 5px;
+}
+
+.episode-image {
+    width: 320px;
+}
+
+.episode-info {
+    margin-left: 10px;
+    align-self: center;
+} 
+
+#search-form {
+    margin-top: 20px;
+    width: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.Show .media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Show .media .media-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
